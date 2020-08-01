@@ -1,0 +1,30 @@
+/*navigation start*/
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav > li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background-color: aqua;
+    height: 30px;
+    padding: 7px;
+}
+
+.nav > li:hover {
+    box-shadow: 5px 5px 5px grey;
+    transform: scale(1.5);
+    font-size: 20px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+}
+/*navigation end*/
+
+/*content Start*/
+.hidden {
+    display: none;
+}
